@@ -1,0 +1,141 @@
+body {
+  background:  black;
+}
+
+.black-bg {
+  background-color: black;
+}
+
+
+h1, h2, h3, h4, h5, p, label, li {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#video1 {
+    width: 98.8vw;
+}
+
+.home-page-box {
+  text-align: center;
+  padding-right:0;
+  padding-left:0;
+}
+
+.border-left {
+  border-left: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+.border-right {
+  border-right: 2px solid white;
+  border-top: 2px solid white;
+  border-bottom: 2px solid white;
+}
+
+
+hr {
+  background-color: white;
+}
+
+.shadow-bar {
+    -webkit-box-shadow: 0 8px 6px -6px #555;
+    -moz-box-shadow: 0 8px 6px -6px #555;
+    box-shadow: 0 8px 6px -6px #555;
+}
+
+.page-heading {
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+  font-size: 7vh;
+}
+
+.page-center {
+  justify-content: center;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: black;
+  color: #3B5998;
+}
+
+.fa-twitter {
+  background: black;
+  color: #55ACEE;
+}
+
+
+.fa-youtube {
+  background: black;
+  color:  #bb0000;
+}
+
+.fa-instagram {
+  background: black;
+  color: #125688;
+}
+
+.nav-link {
+  margin-right: 15px;
+}
+
+.nav-link:hover {
+  text-shadow: 1px 1px;
+}
+
+#myBtn {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  background-color: red; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px; /* Some padding */
+  border-radius: 10px; /* Rounded corners */
+  font-size: 18px; /* Increase font size */
+}
+
+#myBtn:hover {
+  background-color: #555; /* Add a dark-grey background on hover */
+}
+
+.card {
+  background-color: black;
+}
+
+.center {
+    background-color: black;
+    position: fixed;
+    z-index: 1;
+    margin-left: 20%;
+    width: 60%;
+    padding: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: thin solid white;
+}
+
+.hideform {
+    display: none;
+}

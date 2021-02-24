@@ -1,0 +1,250 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel='shortcut icon' type='image/png' href='favi.png' />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+
+    <title>Menu - JapanEasy Sushi</title>
+    <link rel="shortcut icon" type="image/jpg" href="favi.jpg"/>
+  </head>
+  <body>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&uarr;</button>
+
+    <nav class="navbar navbar-expand-lg navbar-dark black-bg">
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <a href="index.html"><img src="logo.png" /></a>
+
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="menu.html">Menu</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="locations.html">Locations</a>
+      </li>
+      <li class="nav-item active">
+        <a class="nav-link" href="contact.html">Contact</a>
+      </li>
+      <li class="nav-item active">
+        <a class="btn btn-danger my-2 my-lg-0" id="book">BOOK A TABLE</a>
+    </li>
+    </ul>
+  </div>
+</nav>
+
+<div class="center hideform">
+<button id="close" style="float: right;">X</button>
+<form>
+  <center>
+    <h2>Reservations</h2>
+    <h4>Location:</h4>
+    <select name = "dropdown">
+            <option value = "Downtown" selected> Downtown</option>
+            <option value = "Midtown">Midtown</option>
+            <option value = "Annex">Annex</option>
+         </select>
+    <br><br>
+    <h4>Date:</h4>
+    <input type="date">
+    <br><br>
+    <h4>Time:</h4>
+    <input type="time">
+    <br><br>
+    <button type="submit" id="find-table" class="btn btn-danger">FIND A TABLE</button>
+  </center>
+</form>
+</div>
+
+<div align="center">
+  <h1><u>Sushi</u></h1>
+
+  <div class="container">
+  <div class="card-deck mb-3 text-center">
+    <div class="card mb-4 shadow-sm shop-item">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Alaska Roll</h4>
+      </div>
+      <div class="card-body">
+        <img src="alaskaroll.jpg" width="300vw" height="250vh">
+        <h1 class="card-title pricing-card-title">$6.00 </h1>
+        <p>Contains: smoked salmon, avocado, cucumber, asparagus (optional)</p>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">King Crab Roll</h4>
+      </div>
+      <div class="card-body">
+        <img src="kingcrabroll.jpg" width="300vw" height="250vh">
+        <h1 class="card-title pricing-card-title">$6.00 </h1>
+        <p>Contains: King Crab, mayonnaise</p>
+      </div>
+    </div>
+    <div class="card mb-4 shadow-sm">
+      <div class="card-header">
+        <h4 class="my-0 font-weight-normal">Dragon Roll</h4>
+      </div>
+      <div class="card-body">
+        <img src="dragonroll.jpg" width="300vw" height="250vh">
+        <h1 class="card-title pricing-card-title">$6.00 </h1>
+        <p>Contains: eel, crab sticks, avocado, cucumber, eel sauce</p>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="container shop-items">
+<div class="card-deck mb-3 text-center">
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Boston Roll</h4>
+    </div>
+    <div class="card-body">
+      <img src="bostonroll.jfif" width="300vw" height="250vh">
+      <h1 class="card-title pricing-card-title">$7.00 </h1>
+      <p>Contains: shrimp, avocado, cucumber</p>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Shrimp Tempura Roll</h4>
+    </div>
+    <div class="card-body">
+      <img src="shrimptempuraroll.jpg" width="300vw" height="250vh">
+      <h1 class="card-title pricing-card-title">$7.00 </h1>
+      <p>Contains: shrimp tempura, avocado, eel sauce</p>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm shop-item">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Spicy Tuna Roll</h4>
+    </div>
+    <div class="card-body">
+      <img src="spicytunaroll.jpg" width="300vw" height="250vh">
+      <span ><h1 class="card-title pricing-card-title">$7.00 </h1></span>
+      <p>Contains: tuna, spicy mayo</p>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="container shop-items">
+<div class="card-deck mb-3 text-center">
+  <div class="card mb-4 shadow-sm shop-item">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal shop-item-title">California Roll</h4>
+    </div>
+    <div class="card-body">
+      <img src="californiaroll.jpg" width="300vw" height="250vh">
+      <h1 class="card-title pricing-card-title">$8.00 </h1>
+      <p>Contains: Imitation crab, avocado, cucumber</p>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Rainbow Roll</h4>
+    </div>
+    <div class="card-body">
+      <img src="rainbowroll.jpg" width="300vw" height="250vh">
+      <h1 class="card-title pricing-card-title">$8.00 </h1>
+      <p>Contains: imitation crab, avocado, cucumber, tuna, salmon, shrimp, yellowtail</p>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Spider Roll</h4>
+    </div>
+    <div class="card-body">
+      <img  src="spiderroll.jpg" width="300vw" height="250vh">
+      <h1 class="card-title pricing-card-title">$8.00 </h1>
+      <p>Contains: tempura soft-shell crab, avocado, cucumber, and spicy mayo</p>
+    </div>
+  </div>
+</div>
+
+<h1><u>Beverages</u></h1>
+
+<div class="container">
+<div class="card-deck mb-3 text-center">
+  <div class="card mb-4 shadow-sm shop-item">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Juice</h4>
+    </div>
+    <div class="card-body">
+      <img src="juice.jfif" width="300vw" height="250vh">
+      <h1 class="card-title pricing-card-title">$1.00 </h1>
+      <p>Orange, mango or kiwi</p>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Soft Drink</h4>
+    </div>
+    <div class="card-body">
+      <img src="cola.jpg" width="300vw" height="250vh">
+      <h1 class="card-title pricing-card-title">$2.00 </h1>
+      <p>Coke, Pepsi, Sprite or Fanta</p>
+    </div>
+  </div>
+  <div class="card mb-4 shadow-sm">
+    <div class="card-header">
+      <h4 class="my-0 font-weight-normal">Sake</h4>
+    </div>
+    <div class="card-body">
+      <img src="sake.jpg" width="300vw" height="250vh">
+      <h1 class="card-title pricing-card-title">$7.00 </h1>
+      <p>Japanese rice wine</p>
+    </div>
+  </div>
+</div>
+</div>
+
+</div>
+</div>
+<div class="footer">
+      <a href="#" class="fa fa-facebook"></a>
+      <a href="#" class="fa fa-instagram"></a>
+      <a href="#" class="fa fa-twitter"></a>
+      <a href="#" class="fa fa-youtube"></a>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+
+    <script>
+    $('#book').on('click', function () {
+    $('.center').show();
+})
+
+$('#close').on('click', function () {
+    $('.center').hide();
+})
+
+$('#find-table').on('click', function () {
+    $('.center').hide();
+})
+    </script>
+
+    <script src="script.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+  </body>
+</html>
