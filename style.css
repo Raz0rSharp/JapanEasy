@@ -1,14 +1,16 @@
-body {
-  background:  black;
-}
 
 .black-bg {
   background-color: black;
 }
 
+#join {
+  background-color: #A9A9A9;
+  padding-bottom: 2vh;
+}
+
+
 
 h1, h2, h3, h4, h5, p, label, li {
-  color: white;
   font-family: 'Roboto', sans-serif;
 }
 
@@ -18,21 +20,22 @@ h1, h2, h3, h4, h5, p, label, li {
 }
 
 .home-page-box {
+  background-color: #DCDCDC;
   text-align: center;
   padding-right:0;
   padding-left:0;
 }
 
 .border-left {
-  border-left: 2px solid white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-left: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 .border-right {
-  border-right: 2px solid white;
-  border-top: 2px solid white;
-  border-bottom: 2px solid white;
+  border-right: 2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
 }
 
 
@@ -121,11 +124,10 @@ hr {
   background-color: #555; /* Add a dark-grey background on hover */
 }
 
-.card {
-  background-color: black;
-}
+
 
 .center {
+	color: white;
     background-color: black;
     position: fixed;
     z-index: 1;
@@ -139,3 +141,4 @@ hr {
 .hideform {
     display: none;
 }
+
