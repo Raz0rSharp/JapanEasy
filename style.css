@@ -15,8 +15,12 @@ h1, h2, h3, h4, h5, p, label, li {
 }
 
 
+#videoDiv {
+    width: 100%;
+}
+
 #video1 {
-    width: 98.9vw;
+	width: 100%;
 }
 
 .home-page-box {
